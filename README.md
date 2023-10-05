@@ -5,7 +5,7 @@ This project requires `python3`. It implements [flask](https://flask.palletsproj
 
 After cloning/downloading the project please follow these instructions to run and test:
 
-Get inside project folder 
+Get inside project folder and setup the project:  
 
 ```
 cd interview-exercise.
