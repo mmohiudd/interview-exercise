@@ -1,5 +1,4 @@
 # interview-exercise
-Tucows Interview Exercise
 
 This project requires `python3`. It implements [flask](https://flask.palletsprojects.com/en/3.0.x/) for the `webapp` and [CLImage](https://github.com/pnappa/CLImage) to convert images to beautiful ANSI escape codes to display in command line interfaces.
 
