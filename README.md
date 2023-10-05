@@ -1,6 +1,7 @@
-This project requires `python3`. It implements [flask](https://flask.palletsprojects.com/en/3.0.x/) for the `webapp` and [CLImage](https://github.com/pnappa/CLImage) to convert images to beautiful ANSI escape codes to display in command line interfaces.
+# interview-exercise
+Tucows Interview Exercise
 
-## Setup
+This project requires `python3`. It implements [flask](https://flask.palletsprojects.com/en/3.0.x/) for the `webapp` and [CLImage](https://github.com/pnappa/CLImage) to convert images to beautiful ANSI escape codes to display in command line interfaces.
 
 After cloning/downloading the project please follow these instructions to run and test:
 
@@ -8,20 +9,8 @@ Get inside project folder
 
 ```
 cd interview-exercise.
-```
-
-Initiate virtual environment
-```
 python3 -m venv venv
-```
-
-Create virtual environment
-```
 . venv/bin/activate
-```
-
-install required dependencies
-```
 pip install -r requirements.txt
 ```
 
@@ -33,9 +22,6 @@ python3 -m unittest tests/test*.py -v
 ```
 
 ![Alt text](extras/unittest.png)
-
-
-
 
 ### cli
 ```
@@ -74,7 +60,7 @@ python3 webapp.py
 ```
 ![webapp](extras/webapp-start.png)
 
-Please open a browswer and go to this address `http://127.0.0.1:5000/`. Key is defaulted to `1` and `Grayscale` options is unselected. 
+Please open a browswer and go to this address `http://127.0.0.1:5000/`. Key is defaulted to `1` and `Grayscale` options are unselected.
 
 ![web](extras/web.png)
 
