@@ -1,2 +1,0 @@
-# interview-exercise
-Interview exercise

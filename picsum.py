@@ -28,8 +28,8 @@ def get_picture(grayscale=False, cli=False):
             image_data = 'data:image/png;base64,' + b64encode(response.content).decode('ascii')
         else:
             image_data = climage.convert_pil(
-                Image.open(BytesIO(response.content)).convert('RGB'), 
-                is_unicode=True
+                Image.open(BytesIO(response.content)).convert('RGB').resize((512, 384)), 
+                is_unicode=True,                 
             )
 
             return image_data
