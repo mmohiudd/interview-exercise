@@ -32,18 +32,17 @@ python3 -m unittest tests/test*.py -v
 ```
 
 ### running cli
-```
-python3 cli.py --help
-```
 
 Running cli with no options
 ```
 python3 cli.py
+```
 
 Running cli with `key`
 ```
 python3 cli.py --key 1231
 ```
+
 
 Running cli with `grayscale`
 ```
@@ -56,4 +55,5 @@ Starting the development server
 ```
 python3 webapp.py 
 ```
+
 Please open a browswer and go to this address `http://127.0.0.1:5000/`. Key is defaulted to `1` and `Grayscale` options are unselected. 

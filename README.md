@@ -24,6 +24,7 @@ python3 -m unittest tests/test*.py -v
 ![Alt text](extras/unittest.png)
 
 ### cli
+Need help?
 ```
 python3 cli.py --help
 ```
