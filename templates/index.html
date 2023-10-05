@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8">
+    <title>tucows-interview-exercise</title>
+    <style>
+      p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+      }      
+    </style>
+  </head>
+
+  <body>
+    <center>
+      <div>
+        {% if quote is not none %}   
+        <p>{{ quote }}</p>
+        {% else %}
+        <p>Sorry - forismatic API is not available</p>
+        {% endif %}
+
+        {% if image_data is not none %}   
+        <image src="{{ image_data }}"></image>
+        {% else %}
+        <p>Sorry - picsum API is not available</p>
+        {% endif %}
+      </div>
+      <div>
+        <form method="post">
+          <input type="checkbox" name="grayscale" value="1" {{ "checked" if grayscale == 1 }}>Grayscale&nbsp;&nbsp;
+          key<input type="text" name="key" value="{{ key }}">&nbsp;&nbsp;
+          <input type="submit" value="Regenerate">
+        </form>
+      </div>
+   </center>    
+  </body>
+</html>
